@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;400&family=Silkscreen&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed';
+    color: #fafafa;
+    
+}
+
+body{
+    background-color: #1e2326;
+}
+
+.divHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+
+header{
+    min-height: 3rem;
+    /* background-color: #5aed83; */
+    background-color: #55a162;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+header a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+
+.logo img{
+    margin: 1rem 1rem;
+    max-height: 3rem;
+    max-width: 3rem;
+}
+
+header li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.inicio{
+    margin-top: 2rem;
+}
+
+.fotoPerfil{
+    border: 7px solid #55a162;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+
+}
+
+h1, h3 {
+    font-family: 'Silkscreen';
+    color: #5aed83;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h2{
+    color: #5aed83;
+    margin: 1rem;
+    text-align: center;
+}
+
+p{
+    margin: 1rem;
+}
+
+.resaltador {
+    color: #5aed83;
+}
+
+.divSkills{
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center;         */
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 100px;
+    background-color: #55a162;
+    border-radius: 10px;
+    margin: 15px;    
+    transition: .3s;
+    
+}
+
+.skills:hover{
+    background-color: #5aed83;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img{
+    margin: 1rem 0;
+    height: 195px;
+    width: 260px;
+    background-color: aqua;
+    border-radius: 10%;    
+}
+
+.contacto{
+    background-image: url("../img/contact_bg.png");
+}
+
+.formContacto{
+    padding: 2rem;
+}
+
+.formContacto input, textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    color: #000000;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #55a162;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+}
