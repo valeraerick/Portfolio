@@ -6,8 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Saira Extra Condensed';
-    color: #fafafa;
-    
+    color: #fafafa;      
 }
 
 body{
@@ -25,7 +24,6 @@ body{
 
 header{
     min-height: 3rem;
-    /* background-color: #5aed83; */
     background-color: #55a162;
     display: flex;
     flex-direction: column;
@@ -59,9 +57,10 @@ header li a{
 }
 
 .fotoPerfil{
-    border: 7px solid #55a162;
+    border: 1px solid #55a162;
     display: block;
-    width: 80%;
+    height: 17.5rem;
+    width: 17.5rem;
     margin: auto;
     border-radius: 100%;
 
@@ -98,11 +97,11 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 100px;
+    width: 4.375rem;
+    height: 6.25rem;
     background-color: #55a162;
-    border-radius: 10px;
-    margin: 15px;    
+    border-radius: .625rem;
+    margin: .9375rem;    
     transition: .3s;
     
 }
@@ -119,8 +118,8 @@ p{
 
 .galeria img{
     margin: 1rem 0;
-    height: 195px;
-    width: 260px;
+    height: 12.1875rem;
+    width: 16.25rem;
     background-color: aqua;
     border-radius: 10%;    
 }
@@ -136,18 +135,18 @@ p{
 .formContacto input, textarea{
     display: block;
     width: 100%;
-    padding: 18px;
+    padding: 1.125rem;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     background-color: #fafafa;
     color: #000000;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .footer{
     background-color: #55a162;
     color: #fff;
-    padding: 50px 0 30px 0;
+    padding: 3.125rem 0 1.875rem 0;
     text-align: center;
     position: relative;
     width: 100%;
